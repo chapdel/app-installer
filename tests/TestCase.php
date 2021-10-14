@@ -2,9 +2,9 @@
 
 namespace Chapdel\Installer\Tests;
 
+use Chapdel\Installer\InstallerServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Chapdel\Installer\InstallerServiceProvider;
 
 class TestCase extends Orchestra
 {

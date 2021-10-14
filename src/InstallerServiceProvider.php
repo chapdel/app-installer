@@ -2,9 +2,9 @@
 
 namespace Chapdel\Installer;
 
+use Chapdel\Installer\Commands\InstallerCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Chapdel\Installer\Commands\InstallerCommand;
 
 class InstallerServiceProvider extends PackageServiceProvider
 {
